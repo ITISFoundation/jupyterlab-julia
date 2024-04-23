@@ -1,0 +1,22 @@
+## Common.gitignore
+
+# temporary folders
+tmp/
+
+# explicit mark
+*ignore*
+.tmp*
+
+# vscode configuration
+.vscode
+
+# make outputs
+pytest_*.xml
+docker-compose.yml
+
+# validation folder
+!validation/**/*
+# docker ignore
+!.dockerignore
+# git ignore
+!.gitignore

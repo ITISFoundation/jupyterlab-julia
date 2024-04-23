@@ -1,0 +1,13 @@
+#
+# This file keeps track of all the Julia packages and versions that will be installed in your service.
+# The following list is just an example, substitute this file according to your needs.
+# Make sure to install the correct julia version in the Dockerfile
+[deps]
+Gadfly = "c91e804a-d5a3-530f-b6f0-dfbca275c004"
+HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
+IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
+Pluto = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
+RDatasets = "ce6b1742-4840-55fa-b093-852dadbb1d8b"
+
+[compat]
+julia = "1.6"
