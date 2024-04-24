@@ -2,7 +2,7 @@ name: Jupyterlab Julia
 key: simcore/services/dynamic/jupyterlab-julia
 type: dynamic
 integration-version: 2.0.0
-version: 1.0.0
+version: 1.0.1
 description: JupyterLab coding environment for creating interactive Jupyter Notebooks with Julia (or Python)
 contact: iavarone@itis.swiss
 thumbnail: https://ih1.redbubble.net/image.1456778886.5914/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg
