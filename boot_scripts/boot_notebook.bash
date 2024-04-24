@@ -65,6 +65,11 @@ EOF
 
 VOILA_NOTEBOOK="${NOTEBOOK_BASE_DIR}"/workspace/voila.ipynb
 
+# Copy Julia packages manifest to current dir
+echo "Copying Manifest.toml and Project.toml from ${JULIA_PKGDIR} to workspace directory..."
+cp "${JULIA_PKGDIR}"/Manifest.toml "${NOTEBOOK_BASE_DIR}"/workspace/
+cp "${JULIA_PKGDIR}"/Project.toml "${NOTEBOOK_BASE_DIR}"/workspace/
+
 if [ "${DY_BOOT_OPTION_BOOT_MODE}" -ne 0 ]; then
     echo "$INFO" "Found DY_BOOT_OPTION_BOOT_MODE=${DY_BOOT_OPTION_BOOT_MODE}... Trying to start in voila mode"
 fi
