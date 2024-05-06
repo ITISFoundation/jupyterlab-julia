@@ -49,7 +49,8 @@ cat > .jupyter_config.json <<EOF
         "token": "${NOTEBOOK_TOKEN}"
     },
     "FileContentsManager": {
-        "preferred_dir": "${NOTEBOOK_BASE_DIR}/workspace/"
+        "preferred_dir": "${NOTEBOOK_BASE_DIR}/workspace/",
+        "delete_to_trash": false
     }
 }
 EOF

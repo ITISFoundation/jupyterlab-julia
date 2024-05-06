@@ -1,6 +1,6 @@
 name: Build and check image
 
-on: [push, pull_request]
+on: push
 
 jobs:
   verify-image-build:
