@@ -1,6 +1,6 @@
 services:
   jupyterlab-julia:
-    image: simcore/services/dynamic/jupyterlab-julia:1.0.1
+    image: simcore/services/dynamic/jupyterlab-julia:1.0.2
     ports:
       - "8888:8888"
     environment:
